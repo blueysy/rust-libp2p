@@ -1,0 +1,21 @@
+[package]
+name = "swarm-derive"
+version = "0.1.0"
+authors = ["tomaka <pierre.krieger1708@gmail.com>"]
+
+[lib]
+name = "swarm_derive"
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "0.2"
+quote = "0.5"
+syn = "0.13"
+
+[dev-dependencies]
+bytes = "0.4"
+futures = "0.1"
+libp2p-identify = { path = "../identify" }
+libp2p-ping = { path = "../ping" }
+libp2p-swarm = { path = "../swarm" }
+tokio-io = "0.1"

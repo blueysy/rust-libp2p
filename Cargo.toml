@@ -11,6 +11,7 @@ members = [
     "ping",
     "secio",
     "swarm",
+    "swarm-derive",
     "tcp-transport",
     "websocket",
     "multistream-select",
