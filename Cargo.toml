@@ -21,6 +21,7 @@ members = [
     "varint-rs",
     "multiplex-rs",
     "example",
+    "ratelimit"
 ]
 
 [patch.crates-io]
